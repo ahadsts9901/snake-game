@@ -127,6 +127,7 @@ footer {
     font-size: 1.2em;
     width: 85%;
     height: 3em;
+    padding: 1em 0em!important;
     color: #a3d4f2;
     background-color: #0d233a;
     display: flex;
