@@ -106,7 +106,8 @@ footer {
 
 #canvas {
     border: 2px solid #a3d4f2;
-    width: 90%;
+    width: 90vmin;
+    height: 90vmin;
 }
 
 .positions {
