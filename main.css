@@ -1,0 +1,140 @@
+* {
+    font-family: "Space Mono", monospace;
+    font-weight: bold!important;
+}
+
+body {
+    background-color: #001020!important;
+    color: #a3d4f2!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    padding: 0em;
+    margin: 0em;
+    width: 100vw;
+    height: 100vh;
+}
+
+i,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0em!important;
+}
+
+.drop-down {
+    background-color: #001020;
+    color: #fff;
+    border: 0px;
+    padding: 0em;
+    margin: 0em;
+}
+
+.dropdown-menu.show {
+    background-color: #001020!important;
+    border: 1px solid #a3d4f2!important;
+}
+
+.drop-down-options {
+    background-color: #001020;
+    color: #a3d4f2!important;
+    border: 0px;
+}
+
+.list {
+    width: 8em;
+    margin: 0em;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+a,
+.list>a {
+    color: #a3d4f2;
+    text-decoration: none!important;
+    margin: 0.3em!important;
+}
+
+.icon {
+    margin: 0em!important;
+    margin-right: 0.5em!important;
+}
+
+.dots {
+    color: #a3d4f2!important;
+}
+
+row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    column-gap: 1em;
+    width: 90%;
+}
+
+column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    row-gap: 1em;
+}
+
+.center {
+    width: 90%;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    row-gap: 1em;
+}
+
+#canvas {
+    border: 2px solid #a3d4f2;
+    width: 90%;
+}
+
+.positions {
+    border: 2px solid #a3d4f2;
+    font-size: 1.2em;
+    width: 3em;
+    height: 3em;
+    color: #a3d4f2;
+    background-color: #0d233a;
+}
+
+.positions:active {
+    background-color: #001020;
+    border: #001020;
+}
+
+#reset {
+    border: 2px solid #a3d4f2;
+    font-size: 1.2em;
+    width: 85%;
+    height: 3em;
+    color: #a3d4f2;
+    background-color: #0d233a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset:active {
+    background-color: #001020;
+    border: #001020;
+}
