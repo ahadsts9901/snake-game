@@ -41,7 +41,7 @@ window.onload = () => {
     placeFood(); // for food placement
     document.addEventListener("keyup", changeDirection);
     // update() // update the board
-    setInterval(update, 100);
+    setInterval(update, 150);
 };
 
 function update() {

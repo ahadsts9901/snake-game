@@ -8,10 +8,10 @@ body {
     color: #a3d4f2!important;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     row-gap: 1em;
-    padding: 0em;
+    padding: 2em 0em 0em 0em!important;
     margin: 0em;
     width: 100vw;
     height: 100vh;
@@ -92,6 +92,7 @@ column {
 .center {
     width: 90%;
     text-align: center;
+    padding-bottom: 1em!important;
 }
 
 footer {
